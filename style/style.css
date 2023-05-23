@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    line-height: 80px;
+}
+
+#boolean_logo {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main {
+    background-color: rgba(246,248,249,255);
+}
