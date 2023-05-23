@@ -25,12 +25,15 @@ main {
     background-color: rgba(246,248,249,255);
 }
 
-#main_section {
+#main_section {   /* the white part of the website */
     width: 900px;
-    height: 1200px;
     margin: auto;
     border-radius: 5px;
     background-color: rgba(255,255,255,255);
+}
+
+section {
+    padding-left: 60px;
 }
 
 #adder {
@@ -49,14 +52,9 @@ main {
     margin-top: 15px;
     margin-bottom: 10px;
     margin-right: 2px;
-    padding: 10px;
+    padding: 10px 15px;
     display: inline-block;
     border-radius: 5px;
-    background-color: rgba(71,173,241,255);
-}
-
-section {
-    padding-left: 60px;
 }
 
 #section_adder {
@@ -65,7 +63,7 @@ section {
     margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 2px;
-    padding: 10px;
+    padding: 10px 15px;
     border: 1px solid rgba(208,214,217,255);
     border-radius: 5px;
     display: inline-block;
@@ -84,6 +82,7 @@ hr {
 .line {
     margin-top: 10px;
     margin-bottom: 10px;
+    vertical-align: middle;
 }
 
 .symbol {
@@ -94,13 +93,18 @@ hr {
     border-radius: 50%;
 }
 
-.main_text {
+.main_text {  /* how do I recognize the correct font to use??? */
     margin-left: 5px;
     display: inline-block;
 }
 
 .button {
+    font-size: 12px;
+    padding: 5px 10px;
     display: inline-block;
+    border-radius: 15px;
+    height: 25px;
+    vertical-align: middle;
 }
 
 .check {
@@ -111,4 +115,31 @@ hr {
 .cross {
     color: rgba(231,59,51,255);
     border-color: rgba(231,59,51,255);
+}
+
+
+/* one class for every color */
+
+.blue_button {
+    background-color: rgba(69,171,234,255);
+}
+
+.purple_button {
+    background-color: rgba(156,114,228,255);
+}
+
+.green_button {
+    background-color: rgba(100,192,169,255);
+}
+
+.orange_button {
+    background-color: rgba(242,158,51,255);
+}
+
+.salmon_button {
+    background-color: rgba(216,99,161,255);
+}
+
+.olive_green_button {
+    background-color: rgba(176,201,38,255);
 }
